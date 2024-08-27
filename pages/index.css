@@ -62,7 +62,7 @@
   justify-content: space-between;
   box-sizing: border-box;
 }
-.hours__link {
+.header__hours-link {
   font-size: 16px;
   color: #838383;
   text-decoration: none;
@@ -334,7 +334,7 @@
   justify-content: space-between;
   margin: 0 auto;
 }
-.footer__column_content_social {
+.footer__columns-content_social {
   margin-left: 80px;
 }
 .footer__image-logo {

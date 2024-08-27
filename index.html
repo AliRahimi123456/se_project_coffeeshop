@@ -8,15 +8,15 @@
     <!-- TODO add keywords and description meta tags -->
     <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
-    <!-- Google Fonts -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <!-- Google Fonts link -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;900&family=Noto+Serif:wght@100;900&display=swap"
       rel="stylesheet"
     />
-  </head>
+</head>
   <body>
     <!-- wraping the entire page content in a new div with class page. -->
     <div class="page">
@@ -57,7 +57,7 @@
           class="header__image"
         />
         <div class="header__footer">
-          <div href="#" class="hours__link">
+          <div class="header__hours-link">
             <p class="header__paragraph">Hours:</p>
             <p class="header__paragraph">Monday-Friday(10:00-19:00)</p>
             <p class="header__paragraph">Saturday-Sunday(11:00-18:00)</p>
@@ -72,7 +72,7 @@
       </header>
       <main class="content">
         <section class="recipes">
-          <h2 c="recipes__title">Recipes</h2>
+          <h2 class="recipes__title">Recipes</h2>
           <p class="recipes__subtitle">
             Check out some recipes we've collected for your home-brewing
             convenience:
@@ -80,8 +80,7 @@
 
           <div class="recipes__videos">
             <div>
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/j6VlT_jUVPc?si=Z5yM2iAOadwPGuyK&amp;start=12" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/j6VlT_jUVPc?si=Z5yM2iAOadwPGuyK&amp;start=12" title="YouTube video player" style="border: none;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
               <p class="recipes__video-caption">
                 <span>Areopress recipe</span> -5 min
@@ -210,7 +209,7 @@
         <div class="footer__columns">
           <img  class="footer__iamge-logo" src="./images/se_project_2_files/logo_coffeeshop_dark.svg"alt=""/>
 
-        <div class="footer__columns_content_social">
+        <div class="footer__columns-content footer__columns-content_social">
           <h3 class="footer__column-heading">Social Media</h3>
           <ul class="footer__list">
             <li class="footer__list-item">
