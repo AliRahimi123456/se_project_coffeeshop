@@ -334,7 +334,7 @@
   justify-content: space-between;
   margin: 0 auto;
 }
-.footer__columns-content_social {
+.footer__columns-content {
   margin-left: 80px;
 }
 .footer__image-logo {
@@ -375,4 +375,7 @@
 }
 .footer__copyright {
   margin: 108px 0 0;
+}
+iframe {
+  border: none;
 }
