@@ -305,6 +305,8 @@
   padding: 119px 80px 173px 20px;
   max-width: 660px;
   line-height: 30px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .about__image {
   position: absolute;
