@@ -15,6 +15,8 @@
   padding: 30px 80px 40px;
   position: relative;
   box-sizing: border-box;
+  background-image: url(../images/se_project_2_files/background_header.svg);
+  background-size: cover;
 }
 .header__title {
   font-family: "Inter", Arial, Helvetica, sans-serif;
@@ -53,6 +55,7 @@
   top: 148px;
   right: 48px;
   position: absolute;
+  background: url(../images/se_project_2_files/background_header.svg);
 }
 .header__footer {
   margin-top: auto;
@@ -378,6 +381,8 @@
 .footer__copyright {
   margin: 108px 0 0;
 }
-iframe {
+.recipes__iframe {
+  height: 273px;
+  width: 480px;
   border: none;
 }
