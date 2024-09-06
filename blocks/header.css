@@ -1,0 +1,77 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  padding: 30px 80px 40px;
+  position: relative;
+  box-sizing: border-box;
+  background-image: url(../images/se_project_2_files/background_header.svg);
+  background-size: cover;
+}
+.header__title {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  max-width: 729px;
+  font-style: normal;
+  font-size: 60px;
+  line-height: 72px;
+  margin: 183px 0 0;
+  letter-spacing: -0.6px;
+  font-weight: 500;
+}
+.header__span-accent {
+  display: block;
+  font-family: "Noto Serif", Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
+  color: #3f96f3;
+}
+.header__description {
+  font-family: "Noto Serif", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000;
+  margin: 32px 0 0;
+  max-width: 683px;
+}
+.header__image {
+  /* heaer__image:Position the header image absolutely within the header container */
+
+  z-index: 1;
+  max-width: 550px;
+  top: 148px;
+  right: 48px;
+  position: absolute;
+  background: url(../images/se_project_2_files/background_header.svg);
+}
+.header__footer {
+  margin-top: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.header__hours-link {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #6f6f6f;
+  text-decoration: none;
+  line-height: 20px;
+  display: block;
+  padding: 10px 15px;
+  font-weight: 500;
+}
+.header__link:hover {
+  color: #d35722;
+  cursor: pointer;
+}
+.header__paragraph {
+  margin: 0;
+  color: #838383;
+}
