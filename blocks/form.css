@@ -14,7 +14,7 @@
   width: 100%;
   padding: 0;
   margin-top: 8px;
-  height: 45px;
+  min-height: 60px;
   border-radius: 4px;
   text-indent: 10px;
   border: 1px solid #838383;
@@ -29,9 +29,10 @@
   width: 100%;
   padding: 0;
   margin-bottom: 32px;
-  height: 45px;
+  min-height: 60px;
   background-color: #2f80ed;
   color: #fff;
+  border: none;
 }
 .form__fieldset {
   padding: 0;
@@ -55,10 +56,12 @@
 }
 .form__label_type_checkbox {
   font-family: "Inter", Arial, Helvetica, sans-serif;
-  font-style: normal;
+  /* font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 20px; */
   display: flex;
   justify-content: center;
+  margin-bottom: 0;
+  column-gap: 12px;
 }

@@ -18,13 +18,28 @@
   max-width: 251px;
   margin: 0;
 }
-.about__paragraph {
-  padding: 119px 80px 173px 20px;
+
+.about__content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 119px;
+  margin-right: 80px;
+  margin-bottom: 173px;
   max-width: 660px;
+  font-family: "Noto serif", "Times New Roman", serif;
+  font-size: 20px;
   line-height: 30px;
-  margin-top: 0;
-  margin-bottom: 0;
-}
+  align-self: flex-end;
+  gap: 20px;
+  }
+
+  .about__paragraph {
+    font-family: "Noto serif", "Times New Roman", serif;
+    font-size: 20px;
+    line-height: 30px;
+    justify-content: flex-end;
+    margin: 0;
+    }
 .about__image {
   position: absolute;
   width: 703px;

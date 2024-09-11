@@ -15,8 +15,8 @@
   margin-left: 80px;
 }
 .footer__image-logo {
-  width: 57px;
-  height: 80px;
+  width: 105px;
+  height: 39px;
 }
 .footer__list {
   list-style-type: none;
@@ -26,7 +26,7 @@
 .footer__list-item {
   margin: 0 0 16px;
 }
-.footer__last-item:last-child {
+.footer__listt-item:last-child {
   margin: 0;
 }
 .footer__column-heading {
@@ -52,4 +52,5 @@
 }
 .footer__copyright {
   margin: 108px 0 0;
+  background: linear-gradient(180deg, #0A2850 0%, #071931 100%);
 }
