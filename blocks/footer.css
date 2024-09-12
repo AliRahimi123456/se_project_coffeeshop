@@ -5,6 +5,7 @@
   padding: 60px 80px;
   font-size: 16px;
   line-height: 20px;
+ 
 }
 .footer__columns {
   display: flex;
@@ -26,7 +27,7 @@
 .footer__list-item {
   margin: 0 0 16px;
 }
-.footer__listt-item:last-child {
+.footer__list-item:last-child {
   margin: 0;
 }
 .footer__column-heading {
@@ -52,5 +53,5 @@
 }
 .footer__copyright {
   margin: 108px 0 0;
-  background: linear-gradient(180deg, #0A2850 0%, #071931 100%);
+
 }
